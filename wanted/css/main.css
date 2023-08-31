@@ -283,6 +283,7 @@ main {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+  width: max-content;
 }
 .article1-arrow {
   top: 50%;
