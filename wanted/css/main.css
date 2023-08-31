@@ -271,7 +271,7 @@ main {
   content: "";
   position: absolute;
   inset: 0 0 0 0;
-  background-image: url("/asset/bg-article1.png");
+  background-image: url("../asset/bg-article1.png");
   opacity: 0.4;
 }
 .article1-main {
@@ -299,7 +299,7 @@ main {
   content: "";
   position: absolute;
   inset: 0 0 0 0;
-  background-image: url("/asset/bg-article2.png");
+  background-image: url("../asset/bg-article2.png");
   background-position: center;
   background-size: cover;
   opacity: 0.4;
@@ -346,7 +346,7 @@ main {
   content: "";
   position: absolute;
   inset: 0 0 0 0;
-  background-image: url("/asset/bg-article5.png");
+  background-image: url("../asset/bg-article5.png");
   background-position: top 20% left 50%;
   background-size: cover;
   opacity: 0.4;
@@ -360,7 +360,7 @@ main {
   content: "";
   position: absolute;
   inset: 0 0 0 0;
-  background-image: url("/asset/bg-article6.png");
+  background-image: url("../asset/bg-article6.png");
   background-position: center;
   background-size: cover;
   opacity: 0.4;
@@ -374,7 +374,7 @@ main {
   content: "";
   position: absolute;
   inset: 0 0 0 0;
-  background-image: url("/asset/bg-article7.png");
+  background-image: url("../asset/bg-article7.png");
   background-position: center;
   background-size: cover;
   opacity: 0.4;
@@ -388,7 +388,7 @@ main {
   content: "";
   position: absolute;
   inset: 0 0 0 0;
-  background-image: url("/asset/bg-article8.png");
+  background-image: url("../asset/bg-article8.png");
   background-position: center;
   background-size: cover;
   opacity: 0.4;
