@@ -1,0 +1,90 @@
+body {
+  font-family: "Poppins", serif;
+  background-color: #f5f5f5;
+  margin: 0;
+  box-sizing: border-box;
+  color: #2e2e2e;
+}
+
+nav {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 345px;
+  height: 100vh;
+  padding-top: 56px;
+  gap: 56px;
+  background-color: #ffffff;
+}
+nav > ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+nav > ul > li {
+  width: 252px;
+  height: 72px;
+}
+nav > ul > li > a {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+  padding: 16px 24px;
+  color: #a098ae;
+  text-decoration: none;
+  border-radius: 20px;
+  font-weight: 500;
+}
+nav > ul > li > a:hover {
+  color: #ffffff;
+  background-color: #f8b602;
+}
+
+aside {
+  display: fixed;
+  width: 455px;
+  background-color: #ffffff;
+}
+
+button {
+  border-radius: 8px;
+  border: none;
+  box-shadow: none;
+  cursor: pointer;
+
+  font-family: "Poppins", serif;
+  color: #2e2e2e;
+  padding: 10px 22px;
+}
+
+.white {
+  color: #ffffff;
+}
+.yellow {
+  color: #f8b602;
+}
+.fw600 {
+  font-weight: 600;
+}
+.fw700 {
+  font-weight: 700;
+}
+.fs18 {
+  font-size: 18px;
+}
+.fs40 {
+  font-size: 40px;
+}
+
+.mt16 {
+  margin-top: 16px;
+}
+
+#upgrade {
+  width: 219px;
+  height: 170px;
+  padding: 33px 0 0 32px;
+  background-image: url("asset/bg-upgrade.png");
+  background-repeat: no-repeat;
+}
