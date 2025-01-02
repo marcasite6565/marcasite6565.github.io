@@ -5,8 +5,21 @@ body {
   box-sizing: border-box;
   color: #2e2e2e;
 }
+h1,
+h3 {
+  margin: 0;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
 
 nav {
+  position: fixed;
+  left: 0;
+  top: 0;
+
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -16,11 +29,6 @@ nav {
   padding-top: 56px;
   gap: 56px;
   background-color: #ffffff;
-}
-nav > ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
 }
 nav > ul > li {
   width: 252px;
@@ -40,11 +48,44 @@ nav > ul > li > a:hover {
   color: #ffffff;
   background-color: #f8b602;
 }
+nav > #upgrade {
+  width: 219px;
+  height: 170px;
+  padding: 33px 0 0 32px;
+  background-image: url("asset/bg-upgrade.png");
+  background-repeat: no-repeat;
+}
 
 aside {
-  display: fixed;
-  width: 455px;
+  position: fixed;
+  right: 0;
+  top: 0;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 375px;
+  padding: 56px 40px;
   background-color: #ffffff;
+}
+aside h3 {
+  font-size: 24px;
+  font-weight: 700;
+}
+aside > #balance > div {
+  width: 375px;
+  height: 165px;
+  background-image: url("asset/bg-balance.png");
+  background-repeat: no-repeat;
+
+  display: flex;
+  gap: 16px;
+}
+aside > #address > h3 {
+  color: #a098ae;
+  font-size: 18px;
+  font-weight: 400;
 }
 
 button {
@@ -79,12 +120,4 @@ button {
 
 .mt16 {
   margin-top: 16px;
-}
-
-#upgrade {
-  width: 219px;
-  height: 170px;
-  padding: 33px 0 0 32px;
-  background-image: url("asset/bg-upgrade.png");
-  background-repeat: no-repeat;
 }
