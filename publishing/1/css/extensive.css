@@ -1,0 +1,76 @@
+.w100 {
+  width: 100%;
+}
+
+/* 텍스트 관련*/
+.white {
+  color: #ffffff;
+}
+.yellow {
+  color: #f8b602;
+}
+.gray {
+  color: #a098ae;
+}
+.fw400 {
+  font-weight: 400;
+}
+.fw500 {
+  font-weight: 500;
+}
+.fw600 {
+  font-weight: 600;
+}
+.fw700 {
+  font-weight: 700;
+}
+.fs18 {
+  font-size: 18px;
+}
+.fs24 {
+  font-size: 24px;
+}
+.fs32 {
+  font-size: 32px;
+}
+.fs40 {
+  font-size: 40px;
+}
+.text-center {
+  text-align: center;
+}
+
+/* margin padding */
+.mt8 {
+  margin-top: 8px;
+}
+.mt16 {
+  margin-top: 16px;
+}
+.mt24 {
+  margin-top: 24px;
+}
+.mt32 {
+  margin-top: 32px;
+}
+.mt40 {
+  margin-top: 40px;
+}
+.mr8 {
+  margin-right: 8px;
+}
+.mr16 {
+  margin-right: 16px;
+}
+.mb24 {
+  margin-bottom: 24px;
+}
+.p12 {
+  padding: 12px;
+}
+.p16 {
+  padding: 16px;
+}
+.p18 {
+  padding: 18px;
+}

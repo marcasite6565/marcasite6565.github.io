@@ -8,7 +8,8 @@
       name="viewport"
       content="width=device-width, initial-scale=1.0, maximum-scale=1.0"
     />
-    <link rel="stylesheet" type="text/css" href="main.css" />
+    <link rel="stylesheet" type="text/css" href="css/main.css" />
+    <link rel="stylesheet" type="text/css" href="css/extensive.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -86,27 +87,76 @@
     </nav>
     <main></main>
     <aside>
-      <div id="menu"></div>
+      <div id="menu" class="flex-row w100">
+        <div class="icons">
+          <button class="box">
+            <div class="active"></div>
+            <svg width="40" height="40">
+              <use xlink:href="asset/icons.svg#icon-message"></use>
+            </svg>
+          </button>
+          <button class="box">
+            <div class="active"></div>
+            <svg width="40" height="40">
+              <use xlink:href="asset/icons.svg#icon-notification"></use>
+            </svg>
+          </button>
+          <button class="box">
+            <svg width="40" height="40">
+              <use xlink:href="asset/icons.svg#icon-setting"></use>
+            </svg>
+          </button>
+        </div>
+        <div class="box">
+          <div class="picture"></div>
+        </div>
+      </div>
       <div id="balance">
-        <h3>Your Balance</h3>
-        <div></div>
+        <h3 class="mb24">Your Balance</h3>
+        <div>
+          <div class="box p16">
+            <div>Balance</div>
+            <div class="fw700 fs32">$12.000</div>
+          </div>
+          <div>
+            <div class="box p12 wh56">
+              <svg width="32" height="32">
+                <use xlink:href="asset/icons.svg#icon-income"></use>
+              </svg>
+            </div>
+            <div class="mt16 white text-center">Tap Up</div>
+          </div>
+          <div>
+            <div class="box p12 wh56">
+              <svg width="32" height="32">
+                <use xlink:href="asset/icons.svg#icon-profit"></use>
+              </svg>
+            </div>
+            <div class="mt16 white text-center">Transfer</div>
+          </div>
+        </div>
       </div>
       <div id="address">
-        <h3>Your Address</h3>
-        <div>
-          <div>Elm Street, 23</div>
-          <button>Change</button>
+        <h3 class="fs18 fw400 gray">Your Address</h3>
+        <div class="flex-row">
+          <div class="fs18 fw700 flex-row">
+            <svg width="24" height="24" class="yellow mr8">
+              <use xlink:href="asset/icons.svg#icon-location"></use>
+            </svg>
+            Elm Street, 23
+          </div>
+          <button class="border yellow">Change</button>
         </div>
-        <div>
+        <div class="gray">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt.
         </div>
-        <div>
-          <button>Add Details</button>
-          <button>Add Note</button>
+        <div class="mt8">
+          <button class="border mr16">Add Details</button>
+          <button class="border">Add Note</button>
         </div>
       </div>
-      <div>
+      <div id="orderMenu" class="w100">
         <h3>Order Menu</h3>
         <ul>
           <li></li>
@@ -114,10 +164,26 @@
           <li></li>
         </ul>
         <hr />
-        <div></div>
-        <div></div>
-        <button>Have a coupon code?</button>
-        <button>Checkout</button>
+        <div class="flex-row mt32">
+          <div class="fw500 gray">Service</div>
+          <div class="fw500 fs18">+<span class="yellow">$</span>1.00</div>
+        </div>
+        <div class="flex-row mt24">
+          <div class="fw500 fs18">Total</div>
+          <div class="fw500 fs24"><span class="yellow">$</span>202.00</div>
+        </div>
+        <button class="w100 flex fw500 mt40">
+          <div class="icon-box">
+            <svg width="32" height="32" class="white">
+              <use xlink:href="asset/icons.svg#icon-coupon"></use>
+            </svg>
+          </div>
+          <div>Have a coupon code?</div>
+          <svg width="32" height="32">
+            <use xlink:href="asset/icons.svg#icon-arrow"></use>
+          </svg>
+        </button>
+        <button class="w100 yellow flex fs18 fw500 mt32">Checkout</button>
       </div>
     </aside>
   </body>
