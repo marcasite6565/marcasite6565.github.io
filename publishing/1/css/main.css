@@ -11,13 +11,25 @@ aside {
   box-sizing: border-box;
 }
 h1,
+h2,
 h3 {
   margin: 0;
+}
+h2 {
+  font-size: 36px;
+  font-weight: 700;
+}
+h3 {
+  font-size: 24px;
+  font-weight: 700;
 }
 ul {
   list-style: none;
   padding: 0;
   margin: 0;
+}
+a {
+  text-decoration: none;
 }
 
 nav {
@@ -41,7 +53,6 @@ nav > ul > li > a {
   gap: 24px;
   padding: 16px 24px;
   color: #a098ae;
-  text-decoration: none;
   border-radius: 20px;
   font-weight: 500;
   font-size: 18px;
@@ -63,6 +74,38 @@ nav > #upgrade > button {
 
 main {
   flex-grow: 1;
+  padding: 56px 40px 0;
+}
+main #search {
+  display: flex;
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 16px;
+  padding: 18px 28px;
+  gap: 8px;
+  width: 50%;
+}
+main #search input {
+  font-family: "Poppins", serif;
+  appearance: none;
+  border: none;
+  margin: 0;
+  flex-grow: 1;
+}
+main #search input:active,
+main #search input:focus {
+  appearance: none;
+  border: none;
+  outline: none;
+}
+main > #banner {
+  display: flex;
+  align-items: center;
+  background-image: url("../asset/bg-banner.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 16px;
+  overflow: hidden;
 }
 
 aside {
@@ -74,10 +117,6 @@ aside {
   padding: 56px 40px;
   background-color: #ffffff;
   gap: 32px;
-}
-aside h3 {
-  font-size: 24px;
-  font-weight: 700;
 }
 aside > #menu > .icons {
   display: flex;
@@ -119,6 +158,21 @@ aside > #address {
   display: flex;
   flex-direction: column;
   gap: 8px;
+}
+aside > #orderMenu > ul {
+  border-bottom: 1px solid #dbdbdb;
+  padding-bottom: 80px;
+}
+aside > #orderMenu > ul > li {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  margin-bottom: 8px;
+}
+aside > #orderMenu > ul > li > img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
 }
 
 button {

@@ -1,6 +1,9 @@
 .w100 {
   width: 100%;
 }
+.fg1 {
+  flex-grow: 1;
+}
 
 /* 텍스트 관련*/
 .white {
@@ -55,6 +58,9 @@
 }
 .mt40 {
   margin-top: 40px;
+}
+.ml8 {
+  margin-left: 8px;
 }
 .mr8 {
   margin-right: 8px;
