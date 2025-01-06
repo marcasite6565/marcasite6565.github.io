@@ -4,6 +4,9 @@
 .fg1 {
   flex-grow: 1;
 }
+.relative {
+  position: relative;
+}
 
 /* 텍스트 관련*/
 .white {
@@ -62,11 +65,17 @@
 .ml8 {
   margin-left: 8px;
 }
+.mr4 {
+  margin-right: 4px;
+}
 .mr8 {
   margin-right: 8px;
 }
 .mr16 {
   margin-right: 16px;
+}
+.mb16 {
+  margin-bottom: 16px;
 }
 .mb24 {
   margin-bottom: 24px;
@@ -79,4 +88,10 @@
 }
 .p18 {
   padding: 18px;
+}
+.p32 {
+  padding: 32px;
+}
+.g16 {
+  gap: 16px
 }

@@ -38,8 +38,7 @@ nav {
   align-items: center;
 
   width: 345px;
-  height: 100vh;
-  padding-top: 56px;
+  padding: 56px 47px 0;
   gap: 56px;
   background-color: #ffffff;
 }
@@ -74,7 +73,7 @@ nav > #upgrade > button {
 
 main {
   flex-grow: 1;
-  padding: 56px 40px 0;
+  padding: 56px 40px 40px;
 }
 main #search {
   display: flex;
@@ -235,9 +234,43 @@ button.flex {
   width: 56px;
   height: 56px;
 }
+.w95 {
+  width: 95px;
+}
 
 .flex-row {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.flex-column {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.off {
+  position: absolute;
+  top: 28px;
+  left: 0;
+  background-color: #eb5757;
+  color: #ffffff;
+  padding: 3px 17px;
+  border-radius: 0 8px 8px 0;
+  text-align: center;
+  font-size: 18px;
+}
+
+.love {
+  position: absolute;
+  top: 32px;
+  right: 32px;
+  color: #dbdbdb;
+  padding: 0;
+  background-color: transparent;
+}
+.love.active {
+  color: #eb5757;
 }
